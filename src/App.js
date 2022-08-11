@@ -20,15 +20,15 @@ const App = () => {
       <SplashScreen
         //duration={1000} /* Add additional delay before page loads */
         isVisible={splash}
-        title={"App Name"}
+        title={"test"}
       />
 
       <AppTheme // To make app reactive with theme
-        scheme="system" // Available props - 'light', 'dark' or 'system'
+        scheme="light" // Available props - 'light', 'dark' or 'system'
       />
 
       <NavBar 
-        title="App Name"
+        title="test"
         shadowOnScroll={true}
         titleBarMobile={
           <div style={{display: "flex", justifyContent: "space-between", width: "calc(100% - 60px)"}}>
